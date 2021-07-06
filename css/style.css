@@ -85,14 +85,6 @@ section h1{
     transform: translate(-50%, -50%);
 }
 
-
-
-
-
-
-
-
-
 #bella1{
     background-image: url(../img/02.png);
 }
@@ -106,7 +98,7 @@ section h1{
 }
 
 #scarpa-bella{
-    background-color: rgb(11, 11, 156);
+    background-color: blue;
 }
 
 #scarpa-brutta{
