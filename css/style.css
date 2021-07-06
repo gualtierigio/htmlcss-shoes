@@ -60,17 +60,23 @@ li:nth-child(3){
 }
 
 .shoe{
-    width: 600px;
-    height: 350px;
+    width: 800px;
+    height: 500px;
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-
+section h1{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 
 
@@ -82,6 +88,14 @@ li:nth-child(3){
 
 #bella1{
     background-image: url(../img/02.png);
+}
+
+#brutta2{
+    background-image: url(../img/01.png);
+}
+
+#converse3{
+    background-image: url(../img/03.png);
 }
 
 #scarpa-bella{
