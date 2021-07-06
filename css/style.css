@@ -42,7 +42,6 @@ li:nth-child(3){
     box-shadow: 5px 5px 5px orange;
 }
 
-
 .nav-container{
     width: 320px;
     height: 80px;
@@ -52,20 +51,47 @@ li:nth-child(3){
     position: fixed;
     right: 0;
     top: 0;
+    z-index: 2;
 }
 
 .shoes-bg{
     height: 100vh;
+    position: relative;
 }
 
-.bg-blue{
+.shoe{
+    width: 600px;
+    height: 350px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+    background-size: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+#bella1{
+    background-image: url(../img/02.png);
+}
+
+#scarpa-bella{
     background-color: blue;
 }
 
-.bg-green{
+#scarpa-brutta{
     background-color: chartreuse;
 }
 
-.bg-orange{
+#scarpa-converse{
     background-color: orange;
 }
