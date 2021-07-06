@@ -22,13 +22,26 @@ a{
 
 nav li{
     float: left;
-    background-color: rgb(159, 159, 170);
+    background-color: rgba(217, 224, 233, 0.911);
     border-radius: 50%;
     width: 50px;
     height: 50px;
     margin-left: 50px;
     position: relative;
 }
+
+li:nth-child(1){
+    box-shadow: 5px 5px 5px rgba(0, 0, 255, 0.61);
+}
+
+li:nth-child(2){
+    box-shadow: 5px 5px 5px chartreuse;
+}
+
+li:nth-child(3){
+    box-shadow: 5px 5px 5px orange;
+}
+
 
 .nav-container{
     width: 320px;
@@ -47,4 +60,12 @@ nav li{
 
 .bg-blue{
     background-color: blue;
+}
+
+.bg-green{
+    background-color: chartreuse;
+}
+
+.bg-orange{
+    background-color: orange;
 }
